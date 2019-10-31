@@ -15,7 +15,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-spotify" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572463075092</updated>
       <workItem from="1572463076214" duration="231000" />
+      <workItem from="1572543941319" duration="127000" />
     </task>
     <servers />
   </component>
@@ -51,7 +52,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
