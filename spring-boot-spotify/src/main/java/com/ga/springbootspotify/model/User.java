@@ -3,6 +3,8 @@ package com.ga.springbootspotify.model;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
+import com.ga.springbootspotify.model.UserRole;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -75,5 +77,14 @@ public class User {
 
         return songs;
     }
+
+    @ManyToOne(cascade = {CascadeType.DETACH,
+            CascadeType.MERGE, CascadeType.REFRESH})
+    @JoinColumn(name = "user_role_id", nullable = false)
+    private UserRole userRole;
+
+    public UserRole getUserRole() { return userRole; }
+
+    public void setUserRole(UserRole userRole) { this.userRole = userRole; }
 
 }

@@ -2,6 +2,7 @@ package com.ga.springbootspotify.service;
 
 import com.ga.springbootspotify.model.Song;
 import com.ga.springbootspotify.model.User;
+import com.ga.springbootspotify.model.UserRole;
 import com.ga.springbootspotify.repositories.SongRepository;
 import com.ga.springbootspotify.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,9 @@ public class UserServiceImpl implements UserService{
     @Autowired
     SongRepository songRepository;
 
+    @Autowired
+    UserRoleService userRoleService;
+
     @Override
     public Iterable<User> listUsers() {
         return userRepository.findAll();
@@ -23,6 +27,8 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public User createUser(User newUser) {
+        UserRole userRole = userRoleService.getRole(newUser.getUserRole().getName());
+        newUser.setUserRole(userRole);
         return userRepository.save(newUser);
     }
 
@@ -45,9 +51,7 @@ public class UserServiceImpl implements UserService{
         return userRepository.save(user);
 
     }
-    }
 
-//        User user = getUser(username);
-//        user.addCourse(course);
-//
-//        return userRepository.save(user);
+}
+
+
