@@ -10,4 +10,8 @@ public interface UserService {
 
     public User login(String username, String password);
 
+    public User getUser(String username);
+
+    public User addSong(String username, Long songId);
+
 }
