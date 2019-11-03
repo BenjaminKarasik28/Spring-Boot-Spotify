@@ -13,7 +13,7 @@ public class Song {
     private Long id;
 
     @Column
-    private String songname;
+    private String title;
 
     @Column
     private String length;
@@ -28,12 +28,12 @@ public class Song {
         this.id = id;
     }
 
-    public String getSongname() {
-        return songname;
+    public String getTitle() {
+        return title;
     }
 
-    public void setSongname(String songname) {
-        this.songname = songname;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getLength() {
