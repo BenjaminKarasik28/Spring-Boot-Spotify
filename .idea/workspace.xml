@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eae99216-aaa0-42ee-88ac-5554d2b54fd2" name="Default Changelist" comment="" />
+    <list default="true" id="bb31b906-c91a-45ba-ac73-19468daf4360" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-spotify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-spotify/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Sw80ZzfW6Irw1ksGnLIKEiiSux" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1T1dnYmtcaB0NyaC0ZYULSmUKeT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-spotify" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -29,18 +54,81 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.UserControllerTest.signup_Returns200_Success">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ga.springbootspotify.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.login_Returns200_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ga.springbootspotify.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="login_Returns200_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.signup_Returns200_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ga.springbootspotify.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="signup_Returns200_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSpotifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-spotify" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ga.springbootspotify.SpringBootSpotifyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.signup_Returns200_Success" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.login_Returns200_Success" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eae99216-aaa0-42ee-88ac-5554d2b54fd2" name="Default Changelist" comment="" />
-      <created>1572463075092</created>
+      <changelist id="bb31b906-c91a-45ba-ac73-19468daf4360" name="Default Changelist" comment="" />
+      <created>1572631702059</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572463075092</updated>
-      <workItem from="1572463076214" duration="231000" />
-      <workItem from="1572543941319" duration="127000" />
+      <updated>1572631702059</updated>
+      <workItem from="1572631703481" duration="3069000" />
+      <workItem from="1572635357513" duration="33000" />
     </task>
     <servers />
   </component>
