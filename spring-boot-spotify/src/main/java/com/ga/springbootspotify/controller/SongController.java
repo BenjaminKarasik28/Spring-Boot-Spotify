@@ -10,8 +10,14 @@ package com.ga.springbootspotify.controller;
 @RequestMapping("/song")
 public class SongController {
 
-    @Autowired
+
     private SongService songService;
+
+    @Autowired
+    public void setSongService(SongService songService){
+        this.songService = songService;
+    }
+
 
         @PostMapping
         public Song createSong(@RequestBody Song song){
@@ -25,20 +31,4 @@ public class SongController {
 
     }
 
-    //
-//    @PostMapping("/signup")
-//    public User createUser(@RequestBody User newUser){
-//        return userService.createUser(newUser);
-//    }
-
 }
-
-
-//
-//    @GetMapping("/login/{username}/{password}")
-//    public User login(@PathVariable String username, @PathVariable String password) {
-//        return userService.login(username, password);
-//    }
-//
-//
-//}
