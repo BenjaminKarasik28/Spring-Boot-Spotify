@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: org.springframework.security:spring-security-test:4.2.3.RELE
+ AS
+

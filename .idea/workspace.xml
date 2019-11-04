@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb31b906-c91a-45ba-ac73-19468daf4360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+    <list default="true" id="d2376e4e-8fde-4bb6-8eb1-6110dbd1751a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_spotify_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-spotify/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring-Boot-Spotify.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-spotify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-spotify/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +18,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -30,17 +34,23 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="1.8" />
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1T1dnYmtcaB0NyaC0ZYULSmUKeT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1T8D1zKUOMDdDRIA3Pj0pBjHsw8" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ga.springbootspotify.controller" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,8 +64,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.signup_Returns200_Success">
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserControllerTest.listUsers_UserController_Success">
+    <configuration name="UserControllerTest.listUsers_UserController_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-spotify" />
       <extension name="coverage">
         <pattern>
@@ -65,38 +75,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
       <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.login_Returns200_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-spotify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ga.springbootspotify.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="login_Returns200_Success" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.signup_Returns200_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-spotify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ga.springbootspotify.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="signup_Returns200_Success" />
+      <option name="METHOD_NAME" value="listUsers_UserController_Success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,9 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.signup_Returns200_Success" />
-        <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.UserControllerTest.login_Returns200_Success" />
+        <item itemvalue="JUnit.UserControllerTest.listUsers_UserController_Success" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +99,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb31b906-c91a-45ba-ac73-19468daf4360" name="Default Changelist" comment="" />
-      <created>1572631702059</created>
+      <changelist id="d2376e4e-8fde-4bb6-8eb1-6110dbd1751a" name="Default Changelist" comment="" />
+      <created>1572832617068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572631702059</updated>
-      <workItem from="1572631703481" duration="3069000" />
-      <workItem from="1572635357513" duration="33000" />
+      <updated>1572832617068</updated>
+      <workItem from="1572832619018" duration="1599000" />
     </task>
     <servers />
   </component>
@@ -140,9 +116,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
