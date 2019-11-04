@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2376e4e-8fde-4bb6-8eb1-6110dbd1751a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_spotify_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-spotify/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spring-Boot-Spotify.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-spotify/src/test/java/com/ga/springbootspotify/controller/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.listUsers_UserController_Success">
+  <component name="RunManager" selected="JUnit.UserServiceTest.login_User_Success">
     <configuration name="UserControllerTest.listUsers_UserController_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-spotify" />
       <extension name="coverage">
@@ -81,6 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest.login_User_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ga.springbootspotify.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ga.springbootspotify.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ga.springbootspotify.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="login_User_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootSpotifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-spotify" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ga.springbootspotify.SpringBootSpotifyApplication" />
@@ -90,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.login_User_Success" />
         <item itemvalue="JUnit.UserControllerTest.listUsers_UserController_Success" />
       </list>
     </recent_temporary>
@@ -104,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572832617068</updated>
-      <workItem from="1572832619018" duration="1599000" />
+      <workItem from="1572832619018" duration="3678000" />
     </task>
     <servers />
   </component>
